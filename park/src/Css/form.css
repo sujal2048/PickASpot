@@ -1,0 +1,350 @@
+h1.form {
+  color: #03045E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.registration_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: remy(32px);
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: remy(180px);
+}
+
+label {
+  color: #03045E;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  touch-action: manipulation;
+
+  /* display: block;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.25;
+  color:#03045E;
+  border: none; */
+}
+
+.container-form {
+  max-width: 80vw !important;
+}
+
+input {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #03045E;
+  border: none;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #03045E;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #03045E;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #03045E;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #0077B6;
+  border-left: 2px solid #0077B6;
+  background-color: #0000;
+}
+
+.required-field::before {
+  content: "*";
+  color: #0077B6;
+  float: right;
+  
+}
+.required-field{
+  margin: 1vh 3vw!important;
+}
+
+.container-form .btn {
+  padding: 0.75rem 1rem;
+  margin-top: 1.618rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #03045E;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #0077B6;
+  border: 1px solid transparent;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn {
+  background-color: #0077B6;
+  color: #03045E;
+}
+
+.merchandise_img {
+  margin-top: 100px;
+  margin-left: 55px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+@media only screen and (max-device-width: 1400px) {
+  .merchandise_img {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 90%;
+  }
+}
+
+.shirt-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.size-table {
+  border-bottom: 1px solid #32383d !important;
+  text-align: center;
+}
+
+
+@media only screen and (max-device-width: 300px){
+  .merchandise_img{
+    margin-left: 20px;
+    margin-right: 15px;
+    width: 90%;
+  }
+}
+
+.merchandise_img_size{
+  margin-top: 100px;
+  margin-left: 55px;
+  margin-right: 50px;
+  width: 100%;
+}
+
+h1.form {
+color: #03045E;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.registration_form {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form {
+padding: remy(32px);
+margin-top: 2rem;
+margin-right: auto;
+margin-left: auto;
+max-width: remy(180px);
+}
+
+label {
+color: #03045E;
+display: inline-block;
+margin-bottom: 0.5rem;
+font-size: 0.75rem;
+text-transform: uppercase;
+touch-action: manipulation;
+
+/* display: block;
+padding: 0.5rem 0.75rem;
+width: 100%;
+font-size: 1rem;
+line-height: 1.25;
+color:#03045E;
+border: none; */
+}
+
+.container-form {
+max-width: 80vw !important;
+}
+
+input {
+display: block;
+padding: 0.5rem 0.75rem;
+width: 100%;
+font-size: 1rem;
+line-height: 1.25;
+color: #03045E;
+border: none;
+}
+::placeholder {
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+color: #03045E;
+opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+/* Internet Explorer 10-11 */
+color: #03045E;
+}
+
+::-ms-input-placeholder {
+/* Microsoft Edge */
+color: #03045E;
+}
+
+input:focus {
+outline: none !important;
+}
+
+input[type="text"] {
+border: none;
+border-bottom: 2px solid #0077B6;
+border-left: 2px solid #0077B6;
+background-color: #fff;
+}
+
+.required-field::before {
+content: "*";
+color:#0077B6 ;
+float: right;
+
+}
+.required-field{
+margin: 1vh 3vw!important;
+}
+
+.container-form .btn {
+padding: 0.75rem 1rem;
+margin-top: 1.618rem;
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+color: #03045E;
+vertical-align: middle;
+white-space: nowrap;
+background-color: #0077B6;
+border: 1px solid transparent;
+/* box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07); */
+cursor: pointer;
+user-select: none;
+}
+
+.btn {
+background-color: #0077B6;
+color: #03045E;
+}
+
+.merchandise_img {
+margin-top: 100px;
+margin-left: 55px;
+margin-right: 50px;
+margin-bottom: 20px;
+width: 80%;
+}
+
+@media only screen and (max-device-width: 1400px) {
+.merchandise_img {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 90%;
+}
+}
+
+.shirt-wrapper {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.size-table {
+border-bottom: 1px solid #32383d !important;
+text-align: center;
+}
+
+
+@media only screen and (max-device-width: 300px){
+.merchandise_img{
+  margin-left: 20px;
+  margin-right: 15px;
+  width: 90%;
+}
+}
+
+.merchandise_img_size{
+margin-top: 100px;
+margin-left: 55px;
+margin-right: 50px;
+width: 100%;
+}
+.main-form{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.personal-info{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 2vh 2vw;
+border: 2px solid #03045E;
+width: 80vw;
+}
+.personal-info-heading>h2{
+color: #03045E;
+}
+.personal-info-body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.parking-space-info{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 2vh 3vw;
+border: 2px solid #03045E;
+margin-top: 2vh;
+width: 80vw;
+}
+.parking-space-info-heading>h2{
+color: #03045E;
+}
+.parking-space-info-body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
