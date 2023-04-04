@@ -6,7 +6,6 @@ import jwt_decode from "jwt-decode";
 import { NavLink } from 'react-router-dom';
 
 const Header = (props) => {
-    const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
     const [isActive, setActive] = useState(false);
 
     const toggleClass = () => {
@@ -33,7 +32,7 @@ const Header = (props) => {
             <GoogleLogin
              onSuccess={credentialResponse => {
                 const details=jwt_decode(credentialResponse.credential);
-                setIsUserLoggedIn(true);
+                //setIsUserLoggedIn(true);
                 props.handleLoggedIn(credentialResponse);
                 console.log("login");
                 console.log(credentialResponse);

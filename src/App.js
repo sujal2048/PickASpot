@@ -34,19 +34,20 @@ function App() {
   // console.log(Data);
   let handleLoggedIn=(response)=>{
     setUserGoogleData(response);
-    setIsUserLoggedIn(true);
+    setIsUserLoggedIn(true); 
     console.log(userGoogleData);
   }
   let handleLoggedOut=(response)=>{
     console.log(response);
+    console.log("logged out 1");
     setIsUserLoggedIn(false);
-    window.location.reload(true);
+  //  window.location.reload(true);
   }
   if(isUserLoggedIn){
     console.log("login");
     return (
            <>   
-           <UserHome data={{userGoogleData}}/>
+           <UserHome data={{userGoogleData}} handleLoggedOut={handleLoggedOut}/>
            <Bodymain/>
            </>
     )
